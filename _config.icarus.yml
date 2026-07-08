@@ -107,14 +107,12 @@ navbar:
     menu:
         Home: /
         Archives: /archives
-        Categories: /categories
         Tags: /tags
-        About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        Follow me on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/kk1201
 # Page footer configurations
 footer:
     # Copyright text
@@ -144,32 +142,30 @@ article:
     # Whether to show estimated article reading time
     readtime: true
     # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
-    update_time: auto
+    update_time: auto 
     # Article licensing block
-    licenses:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: https://creativecommons.org/
-        Attribution:
-            icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
-        Noncommercial:
-            icon: fab fa-creative-commons-nc
-            url: https://creativecommons.org/licenses/by-nc/4.0/
+    # licenses:
+    #     Creative Commons:
+    #         icon: fab fa-creative-commons
+    #         url: https://creativecommons.org/
+    #     Attribution:
+    #         icon: fab fa-creative-commons-by
+    #         url: https://creativecommons.org/licenses/by/4.0/
+    #     Noncommercial:
+    #         icon: fab fa-creative-commons-nc
+    #         url: https://creativecommons.org/licenses/by-nc/4.0/
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
     type: insight
     # Whether to include pages in the search results
     index_pages: true
-
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 # comment:
 #     type: disqus
 #     # Disqus shortname
 #     shortname: ''
-
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
@@ -205,14 +201,12 @@ search:
 #         type: wechat
 #         # Wechat qrcode image URL
 #         qrcode: ''
-
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 # share:
 #     type: sharethis
 #     # URL to the ShareThis share plugin script
 #     install_url: ''
-
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -235,7 +229,7 @@ widgets:
         # Author name
         author: kk1201
         # Author title
-        # author_title: 
+        author_title: 
         # Author's current location
         location: United Kingdom
         # URL or path to the avatar image
@@ -309,15 +303,14 @@ widgets:
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        # position: left
-        # type: subscribe_email
-        # # Hint text under the email input
-        # description: 
-        # # Feedburner ID
-        # feedburner_id: ''
-
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: subscribe_email
+    #     # Hint text under the email input
+    #     description: 
+    #     # Feedburner ID
+    #     feedburner_id: ''
     # Google AdSense unit configurations
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar
@@ -328,17 +321,16 @@ widgets:
     #     # AdSense AD unit ID
     #     slot_id: ''
     # Follow.it email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        # position: left
-        # type: followit
-        # # Hint text under the email input
-        # description: 
-        # # Subscription form action URL
-        # action_url: ''
-        # # Feed claiming verification code
-        # verification_code: ''
-
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: followit
+    #     # Hint text under the email input
+    #     description: 
+    #     # Subscription form action URL
+    #     action_url: ''
+    #     # Feed claiming verification code
+    #     verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
